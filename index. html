@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Shower de Gabriel 💙</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="fondo"></div>
+
+    <div class="contenedor">
+        <!-- Tarjeta Principal -->
+        <div class="card">
+            <h1>🧸 Baby Shower de Gabriel</h1>
+            <p class="mensaje">
+                Gracias por acompañarnos en este momento tan especial.
+                Estamos muy felices de compartir contigo la llegada de nuestro pequeño Gabriel. 💙
+            </p>
+            <input type="text" id="nombre" placeholder="Escribe tu nombre">
+            <button id="continuar">Continuar ✨</button>
+        </div>
+
+        <!-- Animación de la Caja Regalo -->
+        <div id="animacion" class="oculto" style="text-align: center; color: #666; font-size: 18px;">
+            <div class="caja">🎁</div>
+            <p>Asignándote un regalo...</p>
+        </div>
+
+        <!-- Resultado Final -->
+        <div id="resultado" class="oculto">
+            <h2 id="saludo"></h2>
+            <h3>Tu regalo asignado es:</h3>
+            <div id="regalo"></div>
+            <p class="gracias">
+                Gracias por hacer parte de este momento tan especial. 💙
+            </p>
+        </div>
+    </div>
+
+    <!-- Conexión directa a la lógica integrada -->
+    <script type="module" src="script.js"></script>
+</body>
+</html>
