@@ -1,11 +1,11 @@
 const firebaseConfig = {
   apiKey: "AIzaSyAB9xLPKKRSan-uagRqLMSEB7QcxGUsuwE",
-  authDomain: "baby-shower-gabriel-6d7cf.firebaseapp.com",
-  projectId: "baby-shower-gabriel-6d7cf",
-  storageBucket: "baby-shower-gabriel-6d7cf.appspot.com",
-  messagingSenderId: "782568479950",
-  appId: "1:782568479950:web:dacf8c1b5d80a6160c849f"
-}; 
+  authDomain: "baby-shower-gabriel.firebaseapp.com",
+  projectId: "baby-shower-gabriel",
+  storageBucket: "baby-shower-gabriel.appspot.com",
+  messagingSenderId: "78256479950",
+  appId: "1:78256479950:web:dacf8c1b5d80a6160c849f"
+};
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
 import { getFirestore, doc, setDoc, getDocs, collection, updateDoc, runTransaction } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
